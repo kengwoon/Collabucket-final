@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="	#dfc2c2"
+    tools:context=".ProjectDetails">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleHeader"
+                android:layout_width="318dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="\nProject Title"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="	#6d3434" />
+
+            <TextView
+                android:id="@+id/textViewProjectStatusHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nProject Status: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewProjectStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:hint="Project Status: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDateOfListingHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nDate of project listing: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDateOfListing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="Date of project listing "
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="324dp" />
+
+
+            <TextView
+                android:id="@+id/textViewProjectSummmaryHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nProject summary: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewProjectSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="Overview of your company/project."
+                android:inputType="textMultiLine|textLongMessage"
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="91dp" />
+
+            <TextView
+                android:id="@+id/textViewResponsibilitiesHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nResponsibilities and duties: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewResponsibilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="Responsibilities."
+                android:inputType="textMultiLine|textLongMessage"
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="91dp" />
+
+            <TextView
+                android:id="@+id/textViewQualificationsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nQualifications and skills: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewQualifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="Qualifications"
+                android:inputType="textMultiLine|textLongMessage"
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="91dp" />
+
+            <TextView
+                android:id="@+id/textViewDurationHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nDuration of project: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="(DD/MM/YYYY - DD/MM/YYYY)"
+                android:inputType="date"
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+
+            <TextView
+                android:id="@+id/textViewPayHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="\nMinimum amount of pay: "
+                android:textColor="#a54343"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginStart="8dp"
+                android:hint="Base quotation(Pay)."
+                android:textColor="#a54343"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="242dp" />
+
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="\n\nIf you wish to complete the project, \n please COMPLETE PROJECT to finish the collaboration."
+                android:textColor="#a54343"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/buttonComplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="#a54343"
+                android:text="COMPLETE PROJECT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/buttonViewProfile" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

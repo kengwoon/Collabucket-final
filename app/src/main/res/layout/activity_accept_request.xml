@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfc2c2"
+    tools:context=".AcceptRequest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dfc2c2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="       COLLABORATION DETAILS"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="#6d3434"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_width="match_parent" />
+
+
+            <Button
+                android:id="@+id/buttonViewRequesterProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a54343"
+                android:text="View Freelancer Profile"
+                tools:layout_editor_absoluteX="223dp"
+                tools:layout_editor_absoluteY="466dp" />
+
+            <TextView
+                android:id="@+id/textViewPriorInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:textAlignment="center"
+                android:text="Click to view freelancer's profile."
+                android:textColor="#6d3434"
+                android:textStyle="italic"
+                tools:layout_editor_absoluteX="200dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+
+            <TextView
+                android:id="@+id/textViewTitleHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Project Title:"
+                android:textColor="#6d3434"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+            <TextView
+                android:id="@+id/editTextPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="15sp"
+                android:text="TextView"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+            <TextView
+                android:id="@+id/textViewFormSubmitDateHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Request submission date: "
+                android:textColor="#6d3434"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+
+            <TextView
+                android:id="@+id/textViewFormSubmitDate"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="TextView"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="299dp"
+                tools:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textViewChangesHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Maximum number of request(s) for changes:"
+                android:textColor="#6d3434"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+            <TextView
+                android:id="@+id/textViewChanges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="83dp" />
+
+
+            <TextView
+                android:id="@+id/textViewPayHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Baseline quotation:"
+                android:textColor="#6d3434"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+
+            <TextView
+                android:id="@+id/textViewPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="140dp" />
+
+            <TextView
+                android:id="@+id/textViewDeadlineHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Project duration:"
+                android:textColor="#6d3434"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+            <TextView
+                android:id="@+id/textViewDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="224dp" />
+
+            <TextView
+                android:id="@+id/textViewWaitHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Buffer days wait for response (If not adhered to, the other party will have the right to file a report of non-response. Project MAY be terminated.): "
+                android:textColor="#6d3434"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
+
+
+            <TextView
+                android:id="@+id/textViewWait"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="53dp"
+                tools:layout_editor_absoluteY="299dp" />
+
+            <TextView
+                android:id="@+id/textViewInstruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nPlease check if information stated above is as agreed with the freelancer. If you agree with the terms, press 'ACCEPT AND PAY' and proceed to make payment(base amount). Do note that the freelancer will start work upon completion of payment. Should any dispute occur during the course of the project, please file a report and we will handle it on a case-by-case basis. \n\nOtherwise, if you do not agree with the terms, press 'REJECT' and contact the freelancer again to renegotiate the terms. Do note that resubmission of a collaboration request is required."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+
+            <TextView
+                android:id="@+id/textViewInstructionScreenshot"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="\nYou are strongly advised to keep a screenshot of this page for future reference."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <Button
+                android:id="@+id/buttonAccept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a54343"
+                android:text="ACCEPT AND PAY"
+                tools:layout_editor_absoluteX="223dp"
+                tools:layout_editor_absoluteY="466dp" />
+
+            <TextView
+                android:id="@+id/textViewBlank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="29dp"
+                tools:layout_editor_absoluteY="377dp" />
+
+            <Button
+                android:id="@+id/buttonReject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a54343"
+                android:text="REJECT"
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="466dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

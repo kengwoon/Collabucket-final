@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+            android:id="@+id/profile"
+            android:title="View My Profile"/>
+        app:showAsAction="always" />
+        <item
+            android:id="@+id/settings"
+            android:title="Edit My Profile"/>
+        app:showAsAction="always" />
+
+        <item
+            android:id="@+id/Users_Clients"
+            android:layout_width="match_parent"
+            android:title="All Users"/>
+        app:showAsAction="always" />
+
+        <item
+            android:id="@+id/Report"
+            android:layout_width="match_parent"
+            android:title="File A Report"/>
+        app:showAsAction="always" />
+
+
+        <item
+            android:id="@+id/UserGuide"
+            android:layout_width="match_parent"
+            android:title="User Guide"/>
+        app:showAsAction="always" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:title="Logout"/>
+        app:showAsAction="always" />
+
+
+</menu>
