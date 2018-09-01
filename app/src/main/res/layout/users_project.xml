@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="	#e1a7a7"
+    android:background="	#dfc2c2"
     android:visibility="visible"
     tools:layout_height="wrap_content">
 
 
     <TextView
         android:id="@+id/editTextPay"
-        android:layout_width="243dp"
-        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:layout_height="25dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
@@ -20,13 +20,12 @@
         android:text="TextView"
         android:textColor="@color/browser_actions_text_color"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ProjectImage"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textViewProjectSummary"
-        android:layout_width="260dp"
+        android:layout_width="236dp"
         android:layout_height="29dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -37,25 +36,24 @@
         android:textColor="@color/browser_actions_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ProjectImage"
         app:layout_constraintTop_toBottomOf="@+id/editTextPay"
         app:layout_constraintVertical_bias="0.312" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ProjectImage"
-        android:layout_width="67dp"
+        android:layout_width="69dp"
         android:layout_height="74dp"
         android:layout_marginBottom="20dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/rocket_earth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>

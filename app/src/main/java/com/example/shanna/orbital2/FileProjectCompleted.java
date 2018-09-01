@@ -59,16 +59,16 @@ public class FileProjectCompleted extends AppCompatActivity {
                     return;
                 }
 
-                DatabaseReference mgetDatabase = FirebaseDatabase.getInstance().getReference();
+                DatabaseReference mGetDatabase = FirebaseDatabase.getInstance().getReference();
 
-                mgetDatabase.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                mGetDatabase.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                         .child("Projects")
                         .child(project_title)
                         .addValueEventListener(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
 
-                                String partner_id = dataSnapshot.child("Partner").getValue().toString();
+                                final String partner_id = dataSnapshot.child("Partner").getValue().toString();
 
                                 //after obtaining partner's id, then create a new branch called CompletedProjects -> Same level as Users
                                 database = FirebaseDatabase.getInstance().getReference()
@@ -105,6 +105,7 @@ public class FileProjectCompleted extends AppCompatActivity {
                                 Toast.makeText(FileProjectCompleted.this, "Congratulations! Project is successfully completed. :)", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(FileProjectCompleted.this, FeedbackForm.class);
                                 intent.putExtra("user_id", partner_id);
+                                intent.putExtra("Title", project_title);
                                 startActivity(intent);
                                 finish();
                             }

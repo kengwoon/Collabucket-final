@@ -35,8 +35,8 @@
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="384dp"
-                android:layout_height="2300dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
@@ -58,11 +58,10 @@
         \n\n 15.\n(Other Terms)\nPayment will be transferred to freelancer 3 days after deadline stated by both parties, if neither party displays breach of contract.
         \n\n
         "
-                android:textColor="	#a54343"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView"
-                tools:layout_height="wrap_content" />
+                android:textColor="@color/browser_actions_text_color"
+                android:textStyle="normal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="53dp" />
 
             <Button
                 android:id="@+id/button"

@@ -75,6 +75,7 @@
         <activity android:name=".OwnProjectDetails" />
         <activity android:name=".UsersAdapter" />
         <activity android:name=".FeedbackForm" />
+        <activity android:name=".PaymentDetails" />
         <activity android:name=".ViewFeedback"></activity>
     </application>
 
