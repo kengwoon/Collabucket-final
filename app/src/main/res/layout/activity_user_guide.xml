@@ -118,7 +118,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#a54343"
-                android:text="BEGIN USING COLABUCKET" />
+                android:text="BEGIN USING COLLABUCKET" />
 
 
         </LinearLayout>
