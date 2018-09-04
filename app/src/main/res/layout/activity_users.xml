@@ -18,7 +18,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/spaceman_1x"
-        app:layout_constraintBottom_toBottomOf="@+id/btnDone"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
     <TextView
         android:id="@+id/single_name"
         android:layout_width="224dp"
-        android:layout_height="27dp"
+        android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="8dp"
@@ -47,19 +47,20 @@
     <TextView
         android:id="@+id/single_description"
         android:layout_width="224dp"
-        android:layout_height="67dp"
+        android:layout_height="35dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:inputType="textMultiLine"
         android:text="TextView"
         android:textColor="@color/browser_actions_text_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/single_image"
         app:layout_constraintTop_toBottomOf="@+id/single_name"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.156"
         tools:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
