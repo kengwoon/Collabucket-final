@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/editTextPay"
         android:layout_width="238dp"
-        android:layout_height="25dp"
+        android:layout_height="29dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
@@ -25,7 +25,7 @@
 
     <TextView
         android:id="@+id/textViewProjectSummary"
-        android:layout_width="236dp"
+        android:layout_width="238dp"
         android:layout_height="29dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
